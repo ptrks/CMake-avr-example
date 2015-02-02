@@ -4,7 +4,6 @@
 #include "blink.h"
 #include "wait.h"
 
-
 int main(void)
 {
 	/* Sets PORT B.5 as an output */
@@ -13,5 +12,4 @@ int main(void)
         blink();
         wait();
     }
-
 }
